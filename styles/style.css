@@ -1,0 +1,100 @@
+.__paragraphFontSize {
+  font-size: 16px;
+}
+
+.font_45 {
+  font-size: 45px;
+}
+
+.font_32 {
+  font-size: 30px;
+}
+
+.Primary__font {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.secondary__font {
+  font-family: "Outfit", sans-serif;
+}
+
+.margin__left {
+  margin-left: 4em;
+}
+
+.m-b {
+  margin-bottom: 1em;
+}
+
+.m-b-2 {
+  margin-bottom: 0.5em;
+}
+
+.m-l {
+  margin-left: 1em;
+}
+
+.full__padding {
+  padding: 2em;
+}
+
+.text__title {
+  color: hsl(14, 45%, 36%);
+}
+
+.text__element {
+  color: hsl(332, 51%, 32%);
+}
+
+.text__elementItem {
+  color: hsl(24, 5%, 18%);
+}
+
+.text__ {
+  color: hsl(30, 10%, 34%);
+}
+
+.Div__background {
+  background: hsl(330, 100%, 98%);
+}
+
+.max-width {
+  max-width: 90%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: auto;
+  background: hsl(0, 0%, 100%);
+}
+
+div {
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+}
+
+.Recipe__imgContainer {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.Recipe__imgContainer .Recipe__img {
+  width: 90%;
+  margin: auto;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */

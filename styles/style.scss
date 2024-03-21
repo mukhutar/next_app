@@ -1,0 +1,35 @@
+@import './variables';
+@import './mixins';
+@import './typography';
+@import './spacing';
+@import 'colors';
+@import './base';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: auto;
+    background: $Fullbackground;
+    
+}
+
+div{
+    margin-bottom: 2em;
+    @include flex(column ,center , start);
+}
+
+.Recipe__imgContainer{
+    margin-top: 2em;
+    @include flex(row ,center , center);
+
+    .Recipe__img{
+        width: 100%-10%;
+        margin: auto;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+}
